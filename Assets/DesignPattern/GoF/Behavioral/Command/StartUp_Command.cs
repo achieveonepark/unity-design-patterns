@@ -2,7 +2,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-public class StartUp : MonoBehaviour
+public class StartUp_Command : MonoBehaviour
 {
     [SerializeField] private Player _player;
     [SerializeField] private InputHandler _handler;
